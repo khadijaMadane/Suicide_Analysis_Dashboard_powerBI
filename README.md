@@ -88,9 +88,15 @@ This project focuses on analyzing global suicide data using **Talend** for ETL p
 Here are some screenshots of the dashboard for better understanding:
 
 - **Global Suicide Rate Analysis**
+
+
   <img src="Images/dash1.jpeg" width="500"/>
 
+  
+
 - **Correlation between Mental Health and Suicide Rates**
+
+  
     <img src="Images/dash2.jpeg" width="500"/>
 
 
