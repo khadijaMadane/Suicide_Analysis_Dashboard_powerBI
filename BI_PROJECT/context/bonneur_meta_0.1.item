@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<talendfile:ContextType xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" xmi:id="_6EDPkLTVEe-oMa2XhiWQFA" confirmationNeeded="false" name="Default">
+  <contextParameter xmi:id="_6EDPkbTVEe-oMa2XhiWQFA" comment="" name="bonneur_meta_FilePath" prompt="bonneur_meta_FilePath?" promptNeeded="false" repositoryContextId="" type="id_File" value="C:/Users/Pro/Documents/TOS_DI-20211109_1610-V8.0.1/TOS_DI-20211109_1610-V8.0.1/workspace/BI_PROJECT/process/FILEIN/Bonheur.json"/>
+  <contextParameter xmi:id="_6EDPkrTVEe-oMa2XhiWQFA" comment="" name="bonneur_meta_Encoding" prompt="bonneur_meta_Encoding?" promptNeeded="false" repositoryContextId="" type="id_String" value="UTF-8"/>
+  <contextParameter xmi:id="_6EDPk7TVEe-oMa2XhiWQFA" comment="" name="bonneur_meta_XPathQuery" prompt="bonneur_meta_XPathQuery?" promptNeeded="false" repositoryContextId="" type="id_String" value="/data"/>
+</talendfile:ContextType>

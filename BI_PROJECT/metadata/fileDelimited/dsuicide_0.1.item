@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendMetadata:DelimitedFileConnection xmi:id="__VIGkbWkEe-16Oe1b3afOg" name="dsuicide" dataPackage="__VIGkrWkEe-16Oe1b3afOg" Server="Localhost 127.0.0.1" FilePath="C:/Users/Pro/Documents/TOS_DI-20211109_1610-V8.0.1/TOS_DI-20211109_1610-V8.0.1/workspace/BI_PROJECT/process/FILEIN/master_suicide.csv" Encoding="US-ASCII" FieldSeparatorValue="&quot;,&quot;" RowSeparatorValue="&quot;\n&quot;" UseHeader="true" HeaderValue="1" FirstLineCaption="true" FieldSeparatorType="Comma"/>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="__VIGkrWkEe-16Oe1b3afOg" name="default" dataManager="__VIGkbWkEe-16Oe1b3afOg">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="__VIGk7WkEe-16Oe1b3afOg" id="_sHZGYLWkEe-16Oe1b3afOg" label="metadata">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="__VIGlLWkEe-16Oe1b3afOg" label="country" length="7" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="__VIGlbWkEe-16Oe1b3afOg" label="year" length="4" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="__VIGlrWkEe-16Oe1b3afOg" label="sex" length="6" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="__VIGl7WkEe-16Oe1b3afOg" label="age" length="11" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="__VIGmLWkEe-16Oe1b3afOg" label="suicides_no" length="2" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="__VIGmbWkEe-16Oe1b3afOg" label="population" length="6" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="__VIGmrWkEe-16Oe1b3afOg" label="suicides_100k_pop" length="4" precision="3" talendType="id_Float" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="__VIGm7WkEe-16Oe1b3afOg" label="country_year" length="11" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="__VIGnLWkEe-16Oe1b3afOg" label="HDI_for_year" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="__VIGnbWkEe-16Oe1b3afOg" label="gdp_for_year" length="-1" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="__VIGnrWkEe-16Oe1b3afOg" label="gdp_per_capita" length="-1" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="__VIGn7WkEe-16Oe1b3afOg" label="generation" length="15" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>

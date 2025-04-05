@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendMetadata:FileExcelConnection xmi:id="_z_E-8LThEe-oMa2XhiWQFA" name="MHD" dataPackage="_z_E-8bThEe-oMa2XhiWQFA" Server="Localhost 127.0.0.1" FilePath="C:/Users/Pro/Documents/TOS_DI-20211109_1610-V8.0.1/TOS_DI-20211109_1610-V8.0.1/workspace/BI_PROJECT/process/FILEIN/MHD_xls.xlsx" Encoding="UTF-8" UseHeader="true" HeaderValue="1" FirstLineCaption="true" SheetName="Worksheet" firstColumn="1" thousandSeparator="','" decimalSeparator="'.'" selectAllSheets="true" sheetList="Worksheet:w&#xA;">
+    <sheetColumns>A</sheetColumns>
+    <sheetColumns>B</sheetColumns>
+    <sheetColumns>C</sheetColumns>
+    <sheetColumns>D</sheetColumns>
+    <sheetColumns>E</sheetColumns>
+  </TalendMetadata:FileExcelConnection>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_z_E-8bThEe-oMa2XhiWQFA" name="default" dataManager="_z_E-8LThEe-oMa2XhiWQFA">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_z_E-8rThEe-oMa2XhiWQFA" id="_qvseQLThEe-oMa2XhiWQFA" label="metadata">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_z_E-87ThEe-oMa2XhiWQFA" label="ENTITY" length="20" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_z_E-9LThEe-oMa2XhiWQFA" label="CODE" length="3" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_z_E-9bThEe-oMa2XhiWQFA" label="YEAR" length="4" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_z_E-9rThEe-oMa2XhiWQFA" label="MENTAL_HEALTH_DISORDER" length="16" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_z_E-97ThEe-oMa2XhiWQFA" label="TAUX_MHD" length="-1" talendType="id_BigDecimal" pattern="&quot;dd-MM-yyyy&quot;"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>

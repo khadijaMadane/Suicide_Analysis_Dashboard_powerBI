@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendJSON="http://www.talend.org/json" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendJSON:JSONFileConnection xmi:id="_sjaNsLTYEe-oMa2XhiWQFA" name="bonneur_meta" dataPackage="_sja0wLTYEe-oMa2XhiWQFA" JSONFilePath="C:/Users/Pro/Documents/TOS_DI-20211109_1610-V8.0.1/TOS_DI-20211109_1610-V8.0.1/workspace/BI_PROJECT/process/FILEIN/Bonheur.json" Encoding="UTF-8" readbyMode="JSONPATH">
+    <schema xmi:id="_sjaNsbTYEe-oMa2XhiWQFA" LimitBoucle="50" AbsoluteXPathQuery="$[*]">
+      <schemaTargets xmi:id="_sjaNsrTYEe-oMa2XhiWQFA" RelativeXPathQuery="Country" TagName="Country"/>
+      <schemaTargets xmi:id="_sjaNs7TYEe-oMa2XhiWQFA" RelativeXPathQuery="Regional_Indicator" TagName="Regional_Indicator"/>
+      <schemaTargets xmi:id="_sjaNtLTYEe-oMa2XhiWQFA" RelativeXPathQuery="Year" TagName="Year"/>
+      <schemaTargets xmi:id="_sjaNtbTYEe-oMa2XhiWQFA" RelativeXPathQuery="Dystopia_residual" TagName="Dystopia_residual"/>
+      <schemaTargets xmi:id="_sjaNtrTYEe-oMa2XhiWQFA" RelativeXPathQuery="GDP_per_capita" TagName="GDP_per_capita"/>
+      <schemaTargets xmi:id="_sjaNt7TYEe-oMa2XhiWQFA" RelativeXPathQuery="Social_support" TagName="Social_support"/>
+      <schemaTargets xmi:id="_sjaNuLTYEe-oMa2XhiWQFA" RelativeXPathQuery="Healthy_life_expectancy" TagName="Healthy_life_expectancy"/>
+      <schemaTargets xmi:id="_sjaNubTYEe-oMa2XhiWQFA" RelativeXPathQuery="Freedom" TagName="Freedom"/>
+      <schemaTargets xmi:id="_sjaNurTYEe-oMa2XhiWQFA" RelativeXPathQuery="Generosity" TagName="Generosity"/>
+      <schemaTargets xmi:id="_sjaNu7TYEe-oMa2XhiWQFA" RelativeXPathQuery="Perceptions_of_corruption" TagName="Perceptions_of_corruption"/>
+    </schema>
+  </TalendJSON:JSONFileConnection>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_sja0wLTYEe-oMa2XhiWQFA" name="default" dataManager="_sjaNsLTYEe-oMa2XhiWQFA">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_sja0wbTYEe-oMa2XhiWQFA" id="_So3-ULTYEe-oMa2XhiWQFA" label="metadata">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_sja0wrTYEe-oMa2XhiWQFA" label="Country" length="25" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_sja0w7TYEe-oMa2XhiWQFA" label="Regional_Indicator" length="34" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_sja0xLTYEe-oMa2XhiWQFA" label="Year" length="4" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_sja0xbTYEe-oMa2XhiWQFA" label="Dystopia_residual" length="17" precision="16" talendType="id_Float" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_sja0xrTYEe-oMa2XhiWQFA" label="GDP_per_capita" length="17" precision="16" talendType="id_Float" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_sja0x7TYEe-oMa2XhiWQFA" label="Social_support" length="17" precision="16" talendType="id_Float" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_sja0yLTYEe-oMa2XhiWQFA" label="Healthy_life_expectancy" length="19" precision="18" talendType="id_Float" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_sja0ybTYEe-oMa2XhiWQFA" label="Freedom" length="18" precision="17" talendType="id_Float" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_sja0yrTYEe-oMa2XhiWQFA" label="Generosity" length="18" precision="17" talendType="id_Float" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_sja0y7TYEe-oMa2XhiWQFA" label="Perceptions_of_corruption" length="19" precision="18" talendType="id_Float" pattern="&quot;dd-MM-yyyy&quot;"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendMetadata:DelimitedFileConnection xmi:id="_sc7RkLTgEe-oMa2XhiWQFA" name="suici" dataPackage="_sc7RkbTgEe-oMa2XhiWQFA" Server="Localhost 127.0.0.1" FilePath="C:/Users/Pro/Documents/TOS_DI-20211109_1610-V8.0.1/TOS_DI-20211109_1610-V8.0.1/workspace/BI_PROJECT/process/FILEIN/suicide.csv" Encoding="US-ASCII" FieldSeparatorValue="&quot;,&quot;" RowSeparatorValue="&quot;\n&quot;" UseHeader="true" HeaderValue="1" FirstLineCaption="true" FieldSeparatorType="Comma"/>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_sc7RkbTgEe-oMa2XhiWQFA" name="default" dataManager="_sc7RkLTgEe-oMa2XhiWQFA">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_sc7RkrTgEe-oMa2XhiWQFA" id="_Wu7UELTgEe-oMa2XhiWQFA" label="metadata">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_sc7Rk7TgEe-oMa2XhiWQFA" label="Entity" length="11" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_sc7RlLTgEe-oMa2XhiWQFA" label="Code" length="3" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_sc7RlbTgEe-oMa2XhiWQFA" label="Year" length="4" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_sc7RlrTgEe-oMa2XhiWQFA" label="Female_suicide_rate__age_standardized" length="4" precision="3" talendType="id_Float" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_sc7Rl7TgEe-oMa2XhiWQFA" label="Male_suicide_rate__age_standardized" length="5" precision="4" talendType="id_Float" pattern="&quot;dd-MM-yyyy&quot;"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>
